@@ -1,0 +1,55 @@
+// colors
+
+$main-text: #4e6361; // main text
+$link: #6cac70; // anchor tags
+$background: #f5f4e9; // body background color
+
+$color-1: #4e6361; // green dark
+$color-2: #242e30; // green darker
+$color-3: #aab5b7; // green light
+
+// Sagrado color palette
+$color-black: #000000;
+$color-darkest-grey: #262626;
+$color-darker-grey: #333333;
+$color-dark-grey: #4c4c4c;
+$color-grey: #666666;
+$color-light-grey: #999999;
+$color-lighter-grey: #cccccc;
+$color-lightest-grey: #e5e5e5;
+$color-white: #ffffff;
+
+// fonts 
+$body-font-family: "Questrial", Helvetica Neue, "Helvetica", Helvetica, Arial, sans-serif;
+
+$h1-font-size: 2.75em; //rem-calc(44);
+$h2-font-size: 2em; //rem-calc(32);
+$h2-font-size-small: 1.5em; //rem-calc(24);
+$h3-font-size: 1em; //rem-calc(16);
+$h4-font-size: 0.75em; //rem-calc(12);
+$h5-font-size: 0.63em; //rem-calc(10);
+$h6-font-size: 1rem;
+
+$h1-line-height:2rem;
+$h2-line-height: 1.2083333; // ~ 29px; 1.81em; //1.38; //2.75rem;
+$h2-small-line-height: 1.2083333; // ~ 29px; 1.81rem;
+$h3-line-height:1.8125; //1.8125rem;
+$h4-line-height:1; // 0.75rem;
+$h5-line-height:1.4em; //1.14rem;
+$h6-line-height:1.4em; //1.14rem;
+
+
+//$primary-font: 'Titillium Web', sans-serif;
+$primary-font: 'Questrial', sans-serif;
+
+// z-index 
+$header-zindex: 3;
+$content-zindex: 2;
+$secondary-nav: 1;
+
+// header height 
+
+$header-S: 50px;
+$header-S: 4.9375em; //79px / 16
+$header-M: 70px;
+$header-M: 8.4375em; //135px / 16

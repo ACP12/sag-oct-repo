@@ -1,0 +1,28 @@
+// Type styles
+
+h1 {
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+}
+h2 {
+    font-size: $h2-font-size-small;
+    line-height: $h2-small-line-height;
+    
+
+    @include MQ(XL) {
+        font-size: $h2-font-size;
+        line-height: $h2-line-height;
+
+//$h3-line-height:1.8125; //1.8125rem;
+//$h4-line-height:1; // 0.75rem;
+//$h5-line-height:1.4em; //1.14rem;
+//$h6-line-height:1.4em; //1.14rem;
+    }
+}
+h3 {
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+}
+h4 { font-size: $h4-font-size; }
+h5 { font-size: $h5-font-size; }
+h6 { font-size: $h6-font-size; }
