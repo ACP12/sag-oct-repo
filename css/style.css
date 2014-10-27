@@ -23,6 +23,10 @@ h5 {
 h6 {
   font-size: 1rem; }
 
+p {
+  font-size: 1em;
+  line-height: 1.8125; }
+
 .carousel {
   background-color: #ffffff;
   margin: 2em auto 2em auto;
@@ -47,7 +51,7 @@ h6 {
   background-color: #ffffff;
   display: block;
   margin: 0 2em;
-  min-height: 14.74em;
+  min-height: 17.3125em;
   min-width: 14.5em;
   width: 100%;
   max-width: 16em;
@@ -56,7 +60,7 @@ h6 {
     .carousel div {
       margin: 0 2.75em;
       max-width: 24em;
-      min-height: 11.24em; } }
+      min-height: 10.75em; } }
   @media only screen and (min-width: 48em) {
     .carousel div {
       margin: 0 2.75em;
@@ -86,6 +90,7 @@ h2.header-2-carousel {
 
 h3.header-3-carousel {
   color: #999999;
+  line-height: 1.8125;
   margin: 0 auto 2em auto;
   max-width: 16em;
   text-align: center;
@@ -323,12 +328,15 @@ html, body {
 body {
   font-size: 100%;
   font-family: "Questrial", sans-serif;
-  color: #4e6361;
+  color: #999999;
   background-color: #ffffff; }
 
 a {
-  color: #6cac70;
+  color: #333333;
   text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 p {
+  color: #666666; }
 
 /* -------------------------------- 
 
@@ -869,7 +877,7 @@ Featured Projects
   background-size: 20px;
   margin-bottom: 0; }
 
-.project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper {
+.project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper, .section-wrapper {
   box-sizing: border-box;
   display: block;
   margin: 2em auto;
@@ -878,14 +886,14 @@ Featured Projects
   width: 100%;
   max-width: 16em; }
   @media only screen and (min-width: 30em) {
-    .project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper {
+    .project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper, .section-wrapper {
       max-width: 24em; } }
   @media only screen and (min-width: 48em) {
-    .project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper {
+    .project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper, .section-wrapper {
       display: table;
       max-width: 40em; } }
   @media only screen and (min-width: 64em) {
-    .project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper {
+    .project-wrapper, .service-featured-wrapper, .work-hero-wrapper, .section-wrapper, .footer-wrapper, .section-wrapper {
       display: table;
       max-width: 60em;
       margin: 3em auto; } }
@@ -1186,7 +1194,7 @@ Featured Services
   .services-featured .service-featured-wrapper a > *:hover {
     opacity: 0.5; }
 
-.service-icon-content, .service-icon-design, .service-icon-branding {
+.service-icon-content, .service-icon-design, .service-icon-branding, .dev-icon {
   background-image: url("../img/sagrado-service-icon-content.jpg");
   background-position: center top;
   background-size: 78px;
@@ -1202,7 +1210,7 @@ Featured Services
   width: 100%;
   max-width: 7.5em; }
   @media only screen and (min-width: 48em) {
-    .service-icon-content, .service-icon-design, .service-icon-branding {
+    .service-icon-content, .service-icon-design, .service-icon-branding, .dev-icon {
       margin: 2em auto 2em auto; } }
 
 .service-icon-design {
@@ -1210,6 +1218,10 @@ Featured Services
 
 .service-icon-branding {
   background-image: url("../img/sagrado-service-icon-branding.jpg"); }
+
+.dev-icon {
+  background-image: url("../img/sagrado-service-icon-branding.jpg");
+  margin: 0 auto 1.5em auto; }
 
 /*-----------------------
 
@@ -1230,8 +1242,58 @@ Work
   color: #999999;
   text-align: center; }
 
-.section-wrapper h3:first-child {
-  margin-bottom: 1em !important; }
+/*----
+
+About
+
+----*/
+.title {
+  margin-bottom: 1rem !important;
+  letter-spacing: -0.5px; }
+
+.staff-img {
+  display: block;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 18rem; }
+  @media only screen and (min-width: 30em) {
+    .staff-img {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; } }
+
+.sub-title {
+  margin-bottom: 1rem !important;
+  letter-spacing: -0.5px; }
+
+.justify {
+  text-align: justify; }
+
+.theme-black {
+  color: #000000 !important; }
+
+.theme-darkest-black {
+  color: #262626 !important; }
+
+.theme-darker-grey {
+  color: #333333 !important; }
+
+.theme-grey {
+  color: #666666 !important; }
+
+.theme-light-grey {
+  color: #999999 !important; }
+
+.theme-lighter-grey {
+  color: #cccccc !important; }
+
+.theme-lightest-grey {
+  color: #e5e5e5 !important; }
+
+.theme-white {
+  color: #ffffff !important; }
 
 /*------
 
